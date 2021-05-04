@@ -2,10 +2,10 @@
 
 v2gen 是一个强大的 V2Ray 订阅客户端，使用 vmessping 代替 ICMP ping
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?)](https://pkg.go.dev/iochen.com/v2gen)
-![GitHub top language](https://img.shields.io/github/languages/top/iochen/v2gen)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/iochen/v2gen) 
-![Go](https://github.com/iochen/v2gen/workflows/Test/badge.svg) 
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?)](https://github.com/teasiu/v2gen)
+![GitHub top language](https://img.shields.io/github/languages/top/teasiu/v2gen)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/teasiu/v2gen) 
+![Go](https://github.com/teasiu/v2gen/workflows/Test/badge.svg) 
 
 [English](README.md)
 
@@ -25,7 +25,7 @@ Please Select:
 ## 编译或下载
 
 ```sh
-git clone https://github.com/iochen/v2gen/ && cd v2gen
+git clone https://github.com/teasiu/v2gen/ && cd v2gen
 env GOPRIVATE=github.com/v2ray/v2ray-core go build ./cmd/v2gen
 ```
 或在 GitHub Release 上下载
